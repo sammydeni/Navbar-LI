@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Homepage" />
+    <meta name="author" content="Ideal Technology" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <a href="/"><img id="img-logo" src="./img/logo.png" /></a>
+      </div>
+      <a href="/scopridipiu" style="max-height: 50px">
+        <div id="contactBtn">Contattaci</div></a
+      >
+
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Contatti</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/scopridipiu">Scopri di più</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li>
+            <a href="/home">HOME</a>
+            <hr />
+          </li>
+          <li>
+            <a href="/contatti">CONTATTI</a>
+            <hr />
+          </li>
+          <li>
+            <a href="/blog">BLOG</a>
+            <hr />
+          </li>
+          <li>
+            <a href="/scopridipiu">SCOPRI DI PIÙ</a>
+            <hr />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="testBlock">Test 1</div>
+      <div class="testBlock">Test 2</div>
+      <div class="testBlock">Test 3</div>
+    </main>
+
+    <script src="./script/navbar.js"></script>
+  </body>
+</html>
