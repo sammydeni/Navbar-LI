@@ -9,8 +9,8 @@ function toggleMobileMenu(menu) {
 }
 
 //change logo on scrolling
-var initialImg = "../img/logo.png";
-var scrollImg = "../img/logo_small.png";
+var initialImg = "./img/logo.png";
+var scrollImg = "./img/logo_small.png";
 var logo = document.getElementById("img-logo");
 
 window.onscroll = function () {
