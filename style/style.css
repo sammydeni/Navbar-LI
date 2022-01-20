@@ -149,6 +149,10 @@ ul li {
   margin-left: 10px;
 }
 
+#header nav {
+  display: none;
+}
+
 /* ul li:hover {
   transform: scale(1.1);
   transition: 0.3s;
@@ -156,7 +160,7 @@ ul li {
 
 #hamburger-icon {
   margin: auto 0;
-  display: none;
+  display: block;
   cursor: pointer;
 }
 
@@ -231,14 +235,19 @@ hr {
   display: none;
 } */
 
-@media only screen and (max-width: 600px) {
-  header nav {
-    display: none;
-  }
+@media only screen and (min-width: 600px) {
 
   #hamburger-icon {
+    display: none;
+  }
+  
+  #header nav {
     display: block;
   }
+
+  /* #hamburger-icon {
+    display: block;
+  }  */
 }
 
 /* prevent scrolling when the mobile menu is opened */
